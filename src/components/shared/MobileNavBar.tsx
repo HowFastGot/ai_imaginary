@@ -7,7 +7,7 @@ import {
 	SheetTitle,
 	SheetTrigger,
 } from '@components/shad_ui/sheet';
-import { navLinks } from '@constants/index';
+import { navLinks } from '@/constants/index';
 import Image from 'next/image';
 import Link from 'next/link';
 import AsideLinkComponet from './AsideLinkComponet';

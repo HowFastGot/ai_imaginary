@@ -20,7 +20,7 @@
 		],
 		"paths": {
 			"@/*": ["./*"],
-			"@constants/*": ["../constants/*.ts"],
+			"@constants/*": ["./constants/*.ts"],
 			"@components/shad_ui/*": ["./components/ui/*"],
 			"@lib/*": ["./lib/*"]
 		}

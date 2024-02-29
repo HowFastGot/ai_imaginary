@@ -4,7 +4,7 @@ import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { navLinks } from '@constants/index';
+import { navLinks } from '@/constants/index';
 
 import { Button } from '@components/shad_ui/button';
 import AsideLinkComponet from './AsideLinkComponet';

@@ -1,4 +1,3 @@
-function ExactTransformation({ id }: { id: string }) {
-	return <div>ExactTransformation</div>;
+export default function ExactTransformation({ id }: { id: string }) {
+	return <div>ExactTransformation - {id}</div>;
 }
-export default ExactTransformation;

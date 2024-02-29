@@ -1,3 +1,7 @@
-export default function ExactTransformation({ id }: { id: string }) {
+export default function ExactTransformation({
+	params: { id },
+}: {
+	params: { id: string };
+}) {
 	return <div>ExactTransformation - {id}</div>;
 }

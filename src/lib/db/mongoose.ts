@@ -22,9 +22,9 @@ export async function connectToDB() {
 	if (!MONGODB_URL) throw new Error('Missing MongoDB_URL value!');
 
 	cached.promise =
-		cached.promise ??
+		cached.promise ||
 		mongoose.connect(MONGODB_URL, {
-			appName: 'AI_image',
+			dbName: 'AI_image',
 			bufferCommands: false,
 		});
 

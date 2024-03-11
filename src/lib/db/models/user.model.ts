@@ -8,8 +8,8 @@ export interface User extends Document {
 		src: string;
 		alt: string;
 	};
-	fName: string;
-	lName: string;
+	firstName: string;
+	lastName: string;
 	planId: number;
 	creditBalance: number;
 }
@@ -18,8 +18,8 @@ const UserSchema = new Schema<User>({
 	clerkId: { type: String, required: true, unique: true },
 	email: { type: String, required: true, unique: true },
 	userName: { type: String, required: true, unique: true },
-	fName: { type: String },
-	lName: { type: String },
+	firstName: { type: String },
+	lastName: { type: String },
 	photo: { type: Object, required: true },
 	planId: { type: Number, default: 1 },
 	creditBalance: { type: Number, default: 10 },
